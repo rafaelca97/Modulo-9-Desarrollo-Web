@@ -1,0 +1,35 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+  
+    .campo {
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      
+      label {
+        margin-bottom: 5px;
+      }
+      
+      input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+      }
+    }
+  
+    .boton-enviar {
+      margin-top: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+  
